@@ -1,0 +1,108 @@
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilo para o cabeçalho */
+h1 {
+  text-align: center;
+  background-color: #152b3c;
+  color: #fff;
+  padding: 20px;
+  margin: 0;
+}
+
+/* Estilo para o formulário */
+#conversorForm {
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  text-align: center; /* Alinha o conteúdo centralmente */
+}
+
+/* Estilo para os rótulos e campos de entrada */
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+  text-align: left; /* Alinha o texto do rótulo à esquerda */
+}
+
+input[type="text"] {
+  width: 80%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 16px;
+  margin: 0 auto 20px; /* Centraliza horizontalmente e define margem inferior */
+}
+
+/* Estilo para o botão */
+button {
+  background-color: #152b3c;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+button:hover {
+  background-color: #134e7c;
+}
+
+/* Estilo para o resultado */
+h2 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Estilo para o modal */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+/* Estilo para o conteúdo do modal */
+.modal-content {
+  background-color: #fff;
+  margin: 10% auto;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  max-width: 80%;
+  text-align: center;
+  position: relative;
+}
+
+/* Estilo para o botão de fechar o modal */
+.close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.close:hover {
+  background-color: #ccc;
+  border-radius: 3px;
+}
+
+/* Estilo para o título do modal */
+h2 {
+  margin-top: 0;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <title>Conversor</title>
+</head>
+<body>
+    <h1>Conversor de Bases</h1>
+    <form id="conversorForm">
+      <label for="baseOrigem">Base de Origem (2-36):</label>
+      <input type="text" id="baseOrigem" name="baseOrigem" required><br>
+  
+      <label for="numero">Número na Base:</label>
+      <input type="text" id="numero" name="numero" required><br>
+  
+      <label for="baseDestino">Base de Destino (2-36):</label>
+      <input type="text" id="baseDestino" name="baseDestino" required><br>
+  
+      <button type="button" onclick="converter()">Converter</button>
+    </form>
+  
+    <div id="myModal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>Resultado</h2>
+        <p id="resultadoTexto"></p>
+      </div>
+    </div>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
